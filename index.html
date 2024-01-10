@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NOSEY-LUNUX</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/7578685/pexels-photo-7578685.jpeg?cs=srgb&dl=pexels-john-diez-7578685.jpg&fm=jpg');
+            /* Replace with your actual image URL */
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Semi-transparent black background */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .content-column {
+            display: inline-block;
+            flex: 1;
+            padding: 20px;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .content-column h2 {
+            color: red;
+        }
+
+        .about-us {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <h1><I>Nosey-Linux</I></h1>
+    </header>
+
+    <nav>
+        <a href="../tools/tools.html">Tools</a>
+        <a href="../blogs/blog.html">Blog</a>
+        <a href="newsletter.html">Newsletter</a>
+        <a href="../forums/forum.html">Forum</a>
+        <a href="buy-me-a-coffee.html">Buy Me a Coffee</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <div class="content-column">
+                <h2>Recent Trends</h2>
+                <p>Updates about:</p>
+                <div class="trend-category">
+                    <h3>KALI TOOLSETS</h3>
+                    <p1>The tools of kali-linux are arranged in order of the stages of ethical hacking.<br>
+                        The kali UI shows them clearly and have a user-help that is can be called once every tool is lauched in the CLI.<br>
+                        The tools are categorised as:<br>
+                        1. Information gathering<br>
+                        2. Vulnerability analysis<br>
+                        3. Web-Applications <br>
+                        4. Password Attacks<br>
+                        5. Wireless attacks<br>
+                        6. Exploitatio tools<br>
+                        7. Sniffing and Reverse engineering<br>
+                        8. Stress testing <br>
+                        9. Hardware hacking <br>
+                        10. Reporting tools <br>
+                    </p1>
+                    <!-- Add content related to open-source software here -->
+                </div>
+                <div class="trend-category">
+                    <h3>RECONNAISANCE</h3>
+                    <P1>
+                        This is simply information gathering about the target. <br>
+                        Target refers to the person/system you intend to find more 
+                        about and use the gathered information towards an agenda.<br>
+                        <b>Passive reconnaisance</b> - searching for target on the <br>
+                        famous platforms like facebook, twitter and google.
+                        <br>
+                        <b>Active reconnaisance</b> - This falls under <i>Scanning & <br>
+                        ennumeration</i> say scanning for open-ports. <br>
+                        <i>Enumeration</i> - is digging into items to see if anything<br>
+                        valuable exists.
+                    </P1>
+                    <!-- Add content related to mirror software here -->
+                </div>
+            </div>
+            <div class="content-column">
+                <div class="trend-category">
+                    <h3>COMMON PORTS & PROTOCOLS!</h3>
+                    <!-- Add content related to web APIs here -->
+                    <p1> <b>THOSE FOR TCP (transmission control protocol)</b></p1><br>
+                    <p1> tcp is connectio oriented and associated with the following:<br>
+                    <i>Ftp(file transfer protocol) -port 21</i><br>
+                    <i>
+                        SSH(Secure-shell) - 22 <br>
+                        SSH is the necrypted versio  of telnet<br>
+                        Telnet -23 <br>
+                        telnet is the ability to log into a machine remotely but is unsecured.<br>
+                        SMTP(simple mail transfer protocol) - 25 <br>
+                        POP3(post office protocol version3) - 110 <br>
+                        IMAP(internet message access protocol) - 143 <br>
+                        DNS -53 <br>
+                        HTTP - port 80 and HTTPS - 443 <br>
+                        SMB (Server message block) - 139 + 445 <br>
+                    </i>
+                    </p1>
+                    <br>
+                    <p1> <b> THOSE FOR UDP</b></p1><br>
+                    <P1><i>
+                        DNS - 53<br>
+                        DHCP - 67,68 <br>
+                        TFTP - 69 <br>
+                        SNMP -161 <br>
+                    </i></P1>
+                </div>
+                <div class="trend-category">
+                    <h3>CLI Interface Tools</h3>
+                    <!-- Add content related to CLI interface tools here -->
+                    <p1><b>INSTALLING KALI-LINUX </b></p1>
+                    <br>
+                    <p2>it is very easy to install Kali. There are many articles and videos directing on how to do so<br>
+                        Below is a quick way on how to install kali as a live-OS. As a live-OS one might be requiring it to be 
+                        memory persistence or non-memory persistence.
+                    </p2><br>
+                    <p2>
+                        The requirements include:<br>
+                    
+                            1. USB flash-disk atleast 16gb <br>
+                            2. WIFI<br>
+                            3. LAPTOP<br>
+
+                    </p2>
+                    <p1>
+                        PROCESS:<br>
+                        First install rufus software to your laptop <br>
+                        Secondly, find the version of kali linux OS you want to install. For those in need of earlier version you can find them at kali mirrors. <br>
+                        finally, find below link of attched youtube video on how to finalise your live-OS amd64 installation. <br>
+                        <a href="https://www.youtube.com/watch?v=n2olKupv9fY&t=354s" alt="installing live amd64"> kali installation</a>
+                    </p1>
+
+                </div>
+            </div>
+            <div class="content-column">
+                <div class="trend-category">
+                    <h3>OSI-MODEL</h3>
+                    <!-- Add content related to web APIs here -->
+                    <p1><i>Please do not throw sausage pizza away</i></p1><br>
+                    <p1> Physical layer: the trafficknis in bits -devices include data cable, hubs and repeaters. <br>
+                        Data link layer; the traffic is in frames - devices include switches <br>
+                        Network layer; data trafffic is in packets - devices include routers and firewalls <br>
+                        Transport layer ; traffic is in segments - TCP/UDP <br>
+                        Session layer - management of sessions <br>
+                        Presentation layer - jpeg <br>
+                        Application layer - HTTP, SMTP <br>
+                    </p1>
+                    <br>
+                    <p2> Each of the above layer is responsible for managing communication between specific componentsin the network. 
+                        Each layer is said to be independent such that it's actions are not affected by the actions perfomed at the other layers.
+                    </p2>
+                </div>
+                <div class="trend-category">
+                    <h3>CLI Interface Tools</h3>
+                    <!-- Add content related to CLI interface tools here -->
+                </div>
+                <div class="trend-category">
+                    <h3>Web APIs</h3>
+                    <!-- Add content related to web APIs here -->
+                </div>
+                <div class="trend-category">
+                    <h3>CLI Interface Tools</h3>
+                    <!-- Add content related to CLI interface tools here -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="about-us">
+
+        <h2>About Us</h2>
+        <p> what is Nosey-Linux about?
+            Who am I ?
+        </p>
+
+
+
+        <div class="content">
+            <div class="content-column">
+                <div class="content-column">
+                    <div class="Newsletter subscription">
+    
+                        <div class="Newsletter-image">
+                            <h2>SUBSCRIBE TO NEWSLETTER
+                            </h2>
+    
+    
+                        </div>
+                    <div class="footer-subscribe">
+
+                        <input type="email" spellcheck="false"placeholder="your email">
+                        <button>
+                            sign up
+                        </button>
+                    </div>
+                    <p> <i> By subscribing, you will be receiving emails from us reguraly.</i></p>
+                    <p><i> Your email will not be shared with any other 3rd party</i></p>
+                    <div class="logo-container">
+                        <img src = "https://images.pexels.com/photos/19542958/pexels-photo-19542958.jpeg?cs=srgb&dl=pexels-karis-kamau-19542958.jpg&fm=jpg" 
+                        alt="logo">
+
+                    </div>
+    
+    
+    
+    
+    
+                    </div>
+                </div>
+            <div class="content-column">
+                <div class="profile">
+
+                    <div class="profile-image">
+                        <img src="https://images.pexels.com/photos/4709284/pexels-photo-4709284.jpeg?cs=srgb&dl=pexels-cottonbro-studio-4709284.jpg&fm=jpg"
+                            alt="profile">
+
+
+                    </div>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#instagram" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="" />
+
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37.A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+
+                                </svg>"
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#twitter" title="Twitter">
+                                <!--svg twitter-->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#threads" title="Threads">
+                                <!-- svg linkedin -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#linkedin" title="Linkedin">
+                                <!-- svg socials -->
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile-name">
+                        <h2><b> BENSON MUTIE</b></h2>
+                        <div class="profile-bio">
+                            Linux distro-guy, proficient in <em>NMAP</em> <em> BURPSUITE</em> <em>WEB-PENTESTER </em>
+                            <em>ACTIVE
+                                DIRECTORY</em> and <em>PYTHON</em>
+
+                        </div>
+                        
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+            <div class="content-column">
+                <div class="FAQ">
+                    <div class="FAQ-DETAILS">
+                        <h2><i>FAQ's About Kali Linux</i></h2>
+                    </div>
+                    <div class="FAQ-CONTENT">
+                        <details>
+                            <summary>
+                                <span class="faq-title"><b> it easy to use Kali Linux as a first-timer? </b></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p> <i>Yes, it's pretty easy to use Kali Linux for the first time, either as a live-OS or VM. <br>
+                                 -This is because it contains many preinstalled tools that one can maneuver around to satisfy curiosity.</br>
+                                 -Both CLI and GUI are pretty interesting. You will find yourself adapting to both interfaces in less than an hour.</i></p>
+                            </div>
+                        </details>    
+                    </div>
+
+                    <div class=" FAQ-CONTENT">
+                        <details>
+                            <summary>
+                                <span class="faq-title"><b> Is Kali-Linux free ?</b></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p> <i> 
+                                    Kali-linux is tottally Free(opensource) <br>
+                                    Also all the resources/tools in kali are all found in Github
+                                </i></p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        
+
+        
+
+    </div>
+</body>
+
+</html>

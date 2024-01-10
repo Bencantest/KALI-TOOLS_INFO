@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Comments</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+            type="text/css"
+        >
+        <link rel="stylesheet" href="forum_style.css">
+        <script src="forum.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1><I>Nosey-Linux</I></h1>
+        </header>
+    
+        <div class="nav-wrapper">
+            <nav>
+                <a href="../homepage/index.html">Home</a>
+                <a href="../tools/tools.html">Tools</a>
+                <a href="../blogs/blog.html">Blogs</a>
+                <a href="forums/forum.html">Forum</a>
+                <a href="buy-me-a-coffee.html">Buy Me a Coffee</a>
+            </nav>
+        </div>
+      <div class="communication">
+        <div class="discussion__header">
+            <div class="authed-user">
+            </div>
+            <form id="newcomment__form">
+                <textarea tabindex="1" cols="150" rows="4" minlength="5" 
+                    required placeholder="Write a comment"
+                ></textarea>
+                <div class="newcomment__toolbar">
+                    <button
+                        id="reset-button" class="button--secondary"
+                        tabindex="3" type="reset"
+                    >
+                        Reset
+                    </button>
+                    <button
+                        id="confirm-button" class="button--primary"
+                        tabindex="2" type="submit"
+                    >
+                        Comment
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="discussion__comments">
+            <!-- will be generated -->
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+</html>
